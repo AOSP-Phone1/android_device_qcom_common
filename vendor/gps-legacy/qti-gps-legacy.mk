@@ -28,6 +28,10 @@ $(call inherit-product-if-exists, hardware/qcom-caf/$(QCOM_HARDWARE_VARIANT)/gps
 DEVICE_MANIFEST_FILE += \
     $(QCOM_COMMON_PATH)/vendor/gps-legacy/qcc-manifest.xml
 
+# Manifest
+DEVICE_MANIFEST_FILE += \
+    $(QCOM_COMMON_PATH)/vendor/gps-legacy/qcc-manifest.xml
+
 # Overlays
 PRODUCT_PACKAGES += \
     QCOMGPSFrameworksOverlay
